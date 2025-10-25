@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+}
+
+h1{
+    font-size: 100px;
+    text-transform: uppercase;
+    text-align: center;
+    color: transparent;
+    background-image: url("https://media.gettyimages.com/id/631398482/photo/us-economy-auto.jpg?s=1024x1024&w=gi&k=20&c=sWGADz0qVyJOkbT2Exxh1OMhsqDRCwEUi6O-1hGIcXg=");
+    background-clip: text;
+    background-size: cover;
+}
+
+
+.cards{
+    height: 60%;
+    width: 100%;
+    background-color: #333;
+    position: absolute;
+    top:25%;
+    display: flex;
+    overflow: auto;
+}
+.cards::-webkit-scrollbar{
+    display: none;
+}
+
+.cards img{
+    height: 100%;
+    width: 25%;
+    flex-shrink: 0;
+    object-fit: cover;
+}
