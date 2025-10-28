@@ -7,3 +7,27 @@ html , body{
     height: 100%;
     width: 100%;
 }
+main{
+    background-color: #fff;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 33fr 40fr 20fr;
+    grid-template-rows: 70px;
+    grid-template-areas: "i l b"
+                          
+}
+.img{
+    /* background-color: red; */
+    grid-area: i;
+}
+.img img{
+    
+}
+.list{
+    grid-area: l;
+    background-color: saddlebrown;
+}
+button{
+    grid-area: b;
+    background-color: seagreen;
+}
